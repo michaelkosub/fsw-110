@@ -10,7 +10,7 @@ just fix the existing ones.
 
 var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-funtion Who-Wins(is-there-kryptonite,enemy_name)
+function Who_Wins(is_there_kryptonite,enemies)
 {
 if (!is-there-kryptonite)
 {
