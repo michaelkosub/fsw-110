@@ -1,53 +1,41 @@
-/*
-This code contains only syntax and code style problems. The logic of the code works,
-so DO NOT change the functionality of anything in here.
-In short, you shouldn't need to add your own statements anywhere,
-just fix the existing ones.
-*/
+var nav = document.createElement("nav")
+document.body.append(nav)
 
+var a = document.createElement("a")
+a.textContent = "Google"
+a.href = "google.com"
+nav.append(a)
 
-// Written by Kent, Clark
+var newh1 = document.createElement("h1")
+newh1.textContent = "Project 1"
+document.body.append(newh1)
+newh1.style.textAlign = "center"
+newh1.style.fontSize = "30px"
 
-var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var newp = document.createElement("p")
+ newp.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+ document.body.append(newp)
+ newp.style.textAlign = "center"
+ newp.style.fontSize = "30px"
 
-function Who_Wins(is_there_kryptonite,enemies)
-{
-if (!is-there-kryptonite)
-{
-    return "Superman beats " +enemyName+ ", of course";
-}
+ var newLi = document.createElement("li")
+ newLi.textContent = "This is my first Project"
+ newLi.style.fontSize = "20px"
+ document.body.append(newLi) 
 
-else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.";
-}
-    }
+ var newLi = document.createElement("li")
+newLi.textContent = "It is kind fun "
+newLi.style.fontSize = "20px"
+document.body.append(newLi)
 
-for (var i=0;i<enemies.length;i++)
-{
-    var is_there_kryptonite:
-    if (i%2=== 0) {
-        is_there_kryptonite = true;
-    } else {
-        is_there_kryptonite = false;
-    }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));
-}
+var newLi = document.createElement("li")
+newLi.textContent = "I hope I am doing this right "
+newLi.style.fontSize = "20px"
+document.body.append(newLi)
 
-function HowAttractedIsLoisLaneToMe ()
-{
-    // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Mat.random()*10)+1);
-}
+var footer = document.createElement("footer")
+footer.textContent = "This is the end of my Project 1"
+document.body.append(footer)
+footer.style.textAlign = "center"
+footer.style.fontSize = "30px"
 
-consol.log( HowAttractedIsLoisLaneToMe ()) ;
-
-var clarkKent =true;
-var superman false;
-
-while (clarkKent){
-    console.log("I'm just a nerdy columnist");
-    var phoneBoothQuickChange =Math.random();
-    if (phoneBoothQuickChange>= 0.5) {
-        clarkKent=false;
-        superman=true;
-        console.log("Now I'm Superman!");}}
