@@ -20,5 +20,5 @@ for(var i = 0; i < 4; i++){
     H2.style.fontSize = "20px";
 }
 
-document.querySelector("h2").classList.add("border")
+document.querySelector("h1").classList.add("border").innerHTML
 
