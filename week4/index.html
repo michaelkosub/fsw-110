@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href = "style.css">   
+        <title>Calculator</title>
     </head>
     <body>
-        <script src="index.js"></script>
         
-       
+       <form id="one">
+           value 1: <input id="text1" type="text" name= "first"><br><br>
+           value 2: <input id=text2 type="text" name= "second"><br><br>
+        Operator:
+        <input type="button" name="" value="add" onclick="add()"><br>
+        
+       </form>
+       <form id="two">
+        value 1: <input id="text3" type="text" name= "a"><br><br>
+        value 2: <input id="text4" type="text" name= "b"><br><br> 
+        Operator:
+        <input type="button" name="" value="subtract" onclick="subtract()"><br>
+        
+       </form>
+
+       <form id="three">
+        value 1: <input id="text5" type="text" name= "c"><br><br>
+        value 2: <input id="text6" type="text" name= "d"><br><br> 
+        Operator:
+        <input type="button" name="" value="multiply" onclick="multiply()"><br>
+        
+       </form>
+
+       <form id="four">
+        value 1: <input id="text7" type="text" name= "e"><br><br>
+        value 2: <input id="text8" type="text" name= "f"><br><br> 
+        Operator:
+        <input type="button" name="" value="divide" onclick="divide()"><br>
+        
+       </form>
+       <script src="index.js"></script>
     </body>
 </html>
