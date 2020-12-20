@@ -11,6 +11,7 @@ function add(){
     H1.textContent = result
     one.append(H1)
     H1.style.border= "2px solid black"
+    H1.style.backgroundColor = "yellow"
 }
 
 var text3 = document.getElementById("text3")
@@ -18,23 +19,24 @@ var text4 = document.getElementById("text4")
 var two = document.getElementById("two")
 
 function subtract(){
-    console.log (text3.value)
+    console.log (text3.value);
     a = parseInt(text3.value);
     b = parseInt(text4.value);
     result = a - b;
-    console.log(result)
-    var H1= document.createElement("h1")
-    H1.textContent = result
+    console.log(result);
+    var H1= document.createElement("h1");
+    H1.textContent = result;
     one.append(H1)
-    H1.style.border= "2px solid black"
+    H1.style.border= "2px solid black";
+    H1.style.backgroundColor = "green"
 }
 
 var text5 = document.getElementById("text5")
 var text6 = document.getElementById("text6")
 var three = document.getElementById("three")
 
-function subtract(){
-    console.log (text5.value)
+function multiply(){
+    console.log (text5.value);
     c = parseInt(text5.value);
     d = parseInt(text6.value);
     result = c * d;
@@ -43,8 +45,8 @@ function subtract(){
     H1.textContent = result
     one.append(H1)
     H1.style.border= "2px solid black"
+    H1.style.backgroundColor = "red"
 }
-
 
 
 var text7 = document.getElementById("text7")
@@ -61,6 +63,7 @@ function divide(){
     H1.textContent = result
     one.append(H1)
     H1.style.border= "2px solid black"
+    H1.style.backgroundColor = "blue"
 }
 
 
