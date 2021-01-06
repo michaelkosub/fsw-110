@@ -23,14 +23,14 @@ form.addEventListener("submit", (e) => {
     Li.append(del)
     del.textContent = "Delete"
    
-    // del.addEventListener("onclick", (e) => {
-    //     e.p
-    // })
 
-    del.addEventListener("submit", (e) => {
+    del.addEventListener("click", (e) => {
         e.preventDefault()
-        console.log("hello")
-        // console.log(form.First, form.Second)
-
+        console.log(form.First, form.Second)
+        list.removeChild(list.childNodes[0]);
+        
+        
+    
 })
+
 })
